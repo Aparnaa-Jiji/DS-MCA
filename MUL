@@ -46,7 +46,7 @@ void main()
 		{
 			for(k=0;k<3;k++)
 			{
-				sum =+a[i][k]*b[k][j];
+				sum +=a[i][k]*b[k][j];
 			}
 			c[i][j]=sum;
 			sum=0;
