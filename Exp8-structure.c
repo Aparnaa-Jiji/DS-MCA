@@ -8,7 +8,7 @@ struct Student{
 int main()
 {
 	struct Student student ={"Steeve",135,21};
-	printf("Stdent Details:\n");
+	printf("Student Details:\n");
 	printf("Name:%s\n",student.name);
 	printf("ID:%d\n",student.id);
 	printf("Age:%d\n",student.age);
